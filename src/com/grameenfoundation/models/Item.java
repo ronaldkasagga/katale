@@ -7,15 +7,13 @@ public class Item {
 
     private Commodity commodity;
     private float price;
-    private Unit priceUnit;
     private int quantity;
 
     public Item(){}
 
-    public Item(Commodity commodity, float price, Unit priceUnit, int quantity) {
+    public Item(Commodity commodity, float price, int quantity) {
         this.commodity = commodity;
         this.price = price;
-        this.priceUnit = priceUnit;
         this.quantity = quantity;
     }
 
@@ -33,14 +31,6 @@ public class Item {
 
     public void setPrice(float price) {
         this.price = price;
-    }
-
-    public Unit getPriceUnit() {
-        return priceUnit;
-    }
-
-    public void setPriceUnit(Unit priceUnit) {
-        this.priceUnit = priceUnit;
     }
 
     public int getQuantity() {
