@@ -19,6 +19,11 @@ public class Vendor {
         this.stock = stock;
     }
 
+    public Vendor(String name, Market market) {
+        this.name = name;
+        this.market = market;
+    }
+
     public String getName() {
         return name;
     }
