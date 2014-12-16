@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import com.grameenfoundation.fragments.VendorFragment;
 
 public class Home extends FragmentActivity {
     /**
@@ -13,6 +14,8 @@ public class Home extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        shiftFragment(new VendorFragment());
     }
 
     public void shiftFragment(Fragment fragment){

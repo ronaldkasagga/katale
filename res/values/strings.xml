@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">katale</string>
+    <string name="vendor_name_input_label">Name</string>
+    <string name="market_input_label">Market</string>
+    <string name="vendor_form_submit_button_text">Next</string>
 </resources>
